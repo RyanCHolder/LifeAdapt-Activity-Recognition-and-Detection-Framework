@@ -21,10 +21,12 @@ To install and run this project, please follow all of the following steps (there
 
 1. Clone the repository
 
-2. Download the dataset
+    https://github.com/RyanCHolder/LifeAdapt-Activity-Recognition-and-Detection-Framework.git
+   
+3. Download the dataset
     Follow this link and download the DAGHAR datasets: https://zenodo.org/records/11992126
     Put all of the dataset folders into one parent folder (the default name used in our code is DAGHAR)
-3. Download models
+4. Download models
     We used two HAR models and an additional basic 1 dimensional CNN for our experiment, follow these links to download the two HAR models:
     - https://github.com/AdelaideAuto-IDLab/Attend-And-Discriminate
     - https://github.com/sshao2013/ConvBoost
@@ -116,7 +118,7 @@ To install and run this project, please follow all of the following steps (there
                 - `current_fused_acc = accuracy_score(truth_result, fused_pred)`
                 - `print('curr_acc {:.3f} fused_acc {:.3f}'.format(current_acc, current_fused_acc))`
 
-4. Run setup.py
+5. Run setup.py
     This project includes a file called setup.py which will create the file structure necessary to run our code and the two HAR models
     Just run setup.py in your working directory
 
