@@ -118,8 +118,7 @@ To install and run this project, please follow all of the following steps (there
 
 4. Run setup.py
     This project includes a file called setup.py which will create the file structure necessary to run our code and the two HAR models
-    The necessary folders are included in the repository, but if you did not clone the entire repository, 
-    then just run setup.py in your working directory
+    Just run setup.py in your working directory
 
 ## Usage
 After the code has all been setup, to reproduce our experiment, all that is necessary is to run main.py in your working directory.
@@ -163,3 +162,4 @@ ConvBoost
 > *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)*,  
 > vol. 7, no. 2, June 2023, pp. 75, doi: [10.1145/3596234](https://doi.org/10.1145/3596234).  
 > Association for Computing Machinery.
+
